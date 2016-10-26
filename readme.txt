@@ -3,7 +3,7 @@ CDR BUILDER
 
 Uso 
 
-python3 <confFile> <cdrTemplate>
+python3 CDR_builder.py <confFile> <cdrTemplate>
 
 El confFile contiene los datos de fechas del CONSUMO, las OB implicadas, tanto en la 
 generación de los CDRs como en la que está el cliente, y las subscripciones implicadas
