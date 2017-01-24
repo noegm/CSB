@@ -9,7 +9,10 @@ import uuid, random
 obs= {}
 obs["BR"]={"zone":"sa-brazil-1", "area":"sa-brazil-1a"}
 obs["CL"]={"zone":"sa-chile-1", "area":"sa-chile-1a"}
-obs["MX"]={"zone":"sa-mexico-1", "area":"sa-mexico-1a"}
+obs["MX"]={"zone":"na-mexico-1", "area":"sa-mexico-1a"}
+obs["PE"]={"zone":"sa-peru-1", "area":"sa-peru-1a"}
+obs["AR"]={"zone":"sa-argentina-1", "area":"sa-argentina-1a"}
+obs["US"]={"zone":"na-usa-1", "area":"sa-usa-1a"}
 
 parser = argparse.ArgumentParser()
 parser.add_argument("confFile", help="configuration File: day range, OBs scope, subscriptions")
