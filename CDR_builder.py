@@ -83,6 +83,8 @@ for ob_d in ob_destiny_list:
 
                     csv_lines.append(csv_line)
                     csv_file.write(csv_line)
+                #Template file does not have new line character at the end of the last record, so ....
+                csv_file.write('\n') 
             csv_lines.append(Template(config["File"]["f_footer"]).substitute(report_date='{:%Y%m%d}'.format(report_date), data_lines=str(len(csv_lines)-1)))
             csv_file.write(csv_lines[len(csv_lines)-1])
 
