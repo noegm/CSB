@@ -36,6 +36,8 @@ ini_date = datetime(int(config["Dates"]["date"][0:4]), int(config["Dates"]["date
 template_file = open(args.cdrTemplate, 'r')
 
 count_id = 0  #'{:0>6}'.format(count_id)
+timeTemp = datetime.now()
+timeNowToFile = timeTemp.strftime("%H%M%S")
 
 file_lines = template_file.readlines()
 
@@ -52,7 +54,8 @@ for ob_d in ob_destiny_list:
                                                                 ob_source=ob_s.strip(),
                                                                 ob_destiny=ob_d.strip(),
                                                                 report_date='{:%Y%m%d}'.format(report_date),
-                                                                count_id='{:0>6}'.format(count_id))
+                                                                count_id='{:0>6}'.format(count_id),
+		                                                timeNowToFile=timeNowToFile)
             print (csv_filename)
 
             csv_file = open(csv_filename, 'w')
