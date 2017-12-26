@@ -56,7 +56,10 @@ permite la gestión de los resource-Id.
 
 Con el identificador adecuado en el template el generador gestionará un resourceId diferente para 
 cada identificador por cada subscripción y lo repetirá correctamente para cada una todos los días, 
-tanto en los registros de consumo normal (tipo 20) como de consumo pasado (tipo 30)
+tanto en los registros de consumo normal (tipo 20) como de consumo pasado (tipo 30).
+Para ello hay que editar el template y ponerle un "tag" distinto a cada recurso distinto, es decir,
+si 2 líneas comparten el mismo tag, el resourceId será el mismo. Este uso es requerido para el caso
+de tener registros 30 (uso retrasado) y 20 (uso estándar) del mismo recurso en el mismo fichero
 
 Hay que tener en cuenta que la phaseII-0 de VIVO usará discriminación por resource_id, así que la 
 última frase del uso SENCILLO no aplicaría y es obligatoria la gestión correcta, no solamente 
