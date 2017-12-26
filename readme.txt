@@ -54,13 +54,13 @@ python3 CDR30_builder_w-rsrcId.py <confFile> <cdr_w-rsrcId_Template>
 Esta versión, además de incorporar la gestión de los registros "30" de consumo pasado,
 permite la gestión de los resource-Id.
 
-Con el identificador adecuado en el template el generador gestionará un resourceId diferente para cada
-identificador por cada subscripción y lo repetirá correctamente para cada una todos los días, tanto
-en los registros de consumo normal (tipo 20) como de consumo pasado (tipo 30)
+Con el identificador adecuado en el template el generador gestionará un resourceId diferente para 
+cada identificador por cada subscripción y lo repetirá correctamente para cada una todos los días, 
+tanto en los registros de consumo normal (tipo 20) como de consumo pasado (tipo 30)
 
-Hay que tener en cuenta que la phaseII-0 de VIVO usará discriminación por resource_id, así que la última
-frase del uso SENCILLO no aplicaría y es obligatoria la gestión correcta, no solamente formal,
-del resource_id
+Hay que tener en cuenta que la phaseII-0 de VIVO usará discriminación por resource_id, así que la 
+última frase del uso SENCILLO no aplicaría y es obligatoria la gestión correcta, no solamente 
+formal, del resource_id
 
 
 Plantillas actuales que usan este script:
