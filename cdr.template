@@ -34,4 +34,3 @@
 20 | ${report_date}050000 | ${project_id} | ${xdomain} | ${ob_destiny} | ${ob_source_zone} | ${ob_source_area}  | hws.service.type.workspace | hws.resource.type.workspace.vm | workspace.c2.large.windows | 37e1570b-878c-4435-adc1-d2a363f22227 |  | ${use_date}000000 | ${use_date}235959 | Duration | 86400 | 
 20 | ${report_date}050000 | ${project_id} | ${xdomain} | ${ob_destiny} | ${ob_source_zone} | ${ob_source_area}  | hws.service.type.workspace | hws.resource.type.workspace.volume | SATA | 37e1570b-878c-4435-adc1-d2a363f22228 |  | ${use_date}000000 | ${use_date}235959 | Duration | 86400 | 100
 20 | ${report_date}050000 | ${project_id} | ${xdomain} | ${ob_destiny} | ${ob_source_zone} | ${ob_source_area}  | hws.service.type.bigdata | hws.resource.type.bigdata | c2.2xlarge.linux.bigdata | 37e1570b-878c-4435-adc1-d2a363f22229 |  | ${use_date}000000 | ${use_date}235959 | Duration | 86400 | 
-
