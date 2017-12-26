@@ -43,6 +43,8 @@ A diferencia de la anterior, esta versión se puede usar para generar CDRs que s
 con consumos de 2 días antes respecto a la fecha de generación, en lugar del consumo esperado del
 día anterior. Son los registros con el primer campo con valor 30
 
+Se nesita un nuevo modelo de fichero de configuración: confFile_w-recs30.cfg
+
 Aplican todas las limitaciones de la versión anterior
 
 
@@ -53,6 +55,9 @@ python3 CDR30_builder_w-rsrcId.py <confFile> <cdr_w-rsrcId_Template>
 
 Esta versión, además de incorporar la gestión de los registros "30" de consumo pasado,
 permite la gestión de los resource-Id.
+
+Al incorporar la gestión de los consumos pasados, registros "30", se necesita el nuevo 
+modelo de fichero de configuración: confFile_w-recs30.cfg
 
 Con el identificador adecuado en el template el generador gestionará un resourceId diferente para 
 cada identificador por cada subscripción y lo repetirá correctamente para cada una todos los días, 
