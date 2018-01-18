@@ -1,4 +1,4 @@
-# -*- coding: utf-8 ner-*- 
+# -*- coding: utf-8 -*- 
 import configparser
 import argparse
 from datetime import datetime
