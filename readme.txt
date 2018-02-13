@@ -43,7 +43,7 @@ A diferencia de la anterior, esta versión se puede usar para generar CDRs que s
 con consumos de 2 días antes respecto a la fecha de generación, en lugar del consumo esperado del
 día anterior. Son los registros con el primer campo con valor 30
 
-Se nesita un nuevo modelo de fichero de configuración: confFile_w-recs30.cfg
+Se necesita un nuevo modelo de fichero de configuración: confFile_w-recs30.cfg
 
 Aplican todas las limitaciones de la versión anterior
 
@@ -73,3 +73,5 @@ formal, del resource_id
 
 Plantillas actuales que usan este script:
 cdr_w-rsrcId.template
+cdr_EFT-GLB-010.template
+cdr_EFT-GLB-010.template
