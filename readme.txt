@@ -1,4 +1,4 @@
-CDR BUILDER
+﻿CDR BUILDER
 
 
 Uso
@@ -75,3 +75,19 @@ Plantillas actuales que usan este script:
 cdr_w-rsrcId.template
 cdr_EFT-GLB-010.template
 cdr_EFT-GLB-010.template
+
+
+
+EMPAQUETADO FICHEROS CDR
+
+python CDR_Empaquetado.py
+
+El programa se encarga de revisar todos los ficheros .csv presentes en el directorio. Para cada 
+fichero .csv se crea un fichero .zip que lo contiene y un fichero .sha256 con el Hash calculado 
+a patir del fichero .zip.
+
+Para ejecutar correctamente este programa es necesario que el comando mostrado se ejecute en el 
+directorio donde se encuentran los .csv de los CDRs analizados, en el caso de que el programa 
+"CDR_Empaquetado.py" no se encuentre en este directorio se debe especificar la ruta de este 
+fichero.
+
