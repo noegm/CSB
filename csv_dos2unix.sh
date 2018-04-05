@@ -1,0 +1,1 @@
+for i in $(ls *.csv); do dos2unix $i; done
